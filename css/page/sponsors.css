@@ -1,0 +1,17 @@
+.sponsorLeft, .sponsorRight {
+      height: 100vh;
+}
+
+.sponsorLeft{
+      padding-top: 40vh;
+      padding-left: 25px;      
+}
+      .sponsP{ margin: 0; }
+      .sponsH1{ margin: 0; }
+
+
+.sponsorRight{}
+
+.sponsorbox{
+      height: 33.3vh;
+}

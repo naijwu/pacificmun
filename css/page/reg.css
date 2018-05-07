@@ -1,0 +1,37 @@
+/* Main Styles */
+.main{
+      color:white;
+      background-image: url("../../img/reg/conf1.png");
+}
+.titlecard{ font-family: 'Playfair Display', serif; font-size: 7em; padding-bottom: 50px;}
+.content{ padding: 150px 0px; }
+
+/* Registration Overview Styles */
+.content1{ padding: 200px 0px; background-image: url("../../img/reg/conf1.png"); }
+.C1h1{ font-family: 'Playfair Display', serif; font-size: 7em; }
+
+/* Link Styles */
+.linkh1{
+      color: white;
+      transition: all 1s;
+      padding: 50px 0px;
+      border-bottom: 5px solid white;
+      background: linear-gradient(to bottom right, #2980b9, #455A64);
+}
+.linkh1:hover{ border: 7px solid white; }
+
+/* Prices Styles */
+.pricesdiv{ transition: all 1s; }
+.pricesdiv:hover{ background-color: rgba(41, 128, 185, 0.5); border-bottom: 7px solid white; }
+.pricesSp{ padding-top: 50px; }
+
+/* Refund Spacing */
+.refund{ padding: 200px 0px; }
+.refdates{ padding:25px; }
+.bed{ padding-top: 25px; }
+
+@media screen and (max-width: 750px) {
+      .C1h1{ font-size:3em;}
+      .titlecard{ font-size: 3em;}
+      .refund{text-align:center;}
+}

@@ -1,0 +1,70 @@
+/* General Styles */
+.Ccol{ padding: 0px 10px; }
+
+/* Hero Styles */
+.hero{ background-image:url("../../img/aboutus/backaboutus.png"); height: 100vh; }
+.Himg{ width: 150px; }
+.Hbottom{ position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); }
+.Hba, .Hba:hover{ padding: 0px 25px; }
+.Hba{ font-size: 1.5em; }
+.Hba:hover{ font-size: 1.7em; }
+
+/* Multiple Content Styles */
+.Ctitle{ padding:150px 0px; }
+
+/* Content1 Styles */
+.content1{ background: linear-gradient(#2980b9, #455A64); }
+
+/* Content2 Styles */
+.content2{ background-color: #455A64; padding-bottom: 100px; }
+.C2p{ padding-top: 50px; }
+
+/* Content3 Styles */
+.content3{ background-image:url("../../img/sect/sect.jpg"); }
+
+/* Team Introduction Div */
+.C3TI{ background: linear-gradient(transparent, #2980b9); }
+
+/* Secretariat Page */
+.C3sect{ background-color: #2980b9; }
+.C3con{ padding:20px 50px; }
+
+/* Sect Pic Hover */
+.C3Sspan{
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+}
+.C3Sspan>h2{ font-family: 'Playfair Display', serif; }
+.C3Ssdiv, .C3Ssdiv1{
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background:transparent;
+      color: transparent;
+      transition: all 1s;
+      margin: 0px 15px;
+}
+.C3Sa:hover .C3Ssdiv1 {
+      background:rgba(41, 128, 185, 0.7);
+      color: white;
+      cursor: url(../../img/sect/pineapple.png), pointer;
+      border: 5px solid white;
+}
+.C3Sa:hover .C3Ssdiv{
+      background:rgba(41, 128, 185, 0.7);
+      color: white;
+      border: 5px solid white;
+}
+.C3Ssp{
+      font-style: italic;
+}
+
+@media screen and (max-width: 750px) {
+      .Hbottom{display: none;}
+      .ssMbtn{color:white;}
+}

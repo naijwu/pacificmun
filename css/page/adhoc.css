@@ -1,0 +1,44 @@
+body{
+      background-color: black;
+      color: white;
+}
+.main{height:100vh;}
+.mCenter{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.Adhoch1{
+      font-family: 'Libre Barcode 39 Text', cursive;
+      font-size: 5em;
+}
+.Adhocp{
+      font-family: 'Libre Barcode 39 Text', cursive;
+      font-size: 2.3em;
+}
+.Adhocinv{color:black;}
+.Adhocinput{
+      font-size: 2em;
+      width:500px;
+      border:none;
+      margin-right: 30px;
+      color:black;
+}
+.Adhocinput::placeholder {
+      text-align: center;
+      color: black;
+}
+.Adhocbut{
+      font-size: 2em;
+      background-color: transparent;
+      border:none;
+      color:white;
+}
+.adhocMa, .adhocMa:hover{ color:white; }
+.AdhocW, .AdhocW:hover{color:white}
+.Adhocimg{width:100px; transition: all 2s;}
+.Adhocimg:hover{
+      width:110px;
+      transform: rotate(180deg);
+}
+
+.gn-menu-main > li > a {color: white;}
+.gn-menu-main > li > a:hover{color: white;}
+.gn-menu-main > li > a > div{background-color: white;}
+.gn-menu-main > li > a:hover  > div{background-color: white;}

@@ -1,0 +1,66 @@
+/* Main Styles */
+.main{ background-image:url("../../img/com/committees.png"); color:white;}
+
+/* Hero Styles */
+.hero{ height:auto; margin:0; padding-top:35vh; }
+.Hh1{ font-family: 'Playfair Display', serif; font-size: 8em; padding:0px; }
+.Hcontent{ font-size: 14px; padding: 150px 15vw; }
+
+/* Content 1 Styles */
+.content1{height:auto; background: linear-gradient(rgba(69, 90, 99, 0), rgba(69, 90, 99, 1));}
+.C1row1{margin:0; text-align: center; max-width: 100%; padding:25px 0px;}
+.C1rowdiv{text-align: left;}
+.C1rowh1{margin:75px 0px; font-size: 3.5em; text-transform: uppercase; color:white;}
+
+/* Committees Selection Grid Styles */
+.grid {max-width: 100%; padding:0px 5px;}
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	height: auto;
+	background: transparent;
+	text-align: center;
+	cursor: pointer;
+}
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+.grid figure figcaption {
+	padding: 2em;
+	color: white;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.grid figure figcaption, .grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+	.Hh1{ font-size: 3em; }
+}

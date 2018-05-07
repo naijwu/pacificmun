@@ -1,0 +1,115 @@
+/* FONT STYLES */
+@font-face{ font-family: Hewitt; src: url("../fonts/CooperHewitt-Light.otf"); }
+
+/* MAIN BODY STYLES */
+*{ border-radius: 0 !important; font-family: Hewitt; color: white; }
+p{ font-size: 16px; }
+a{ color: white; transition: 1s; }
+a:hover{ color: white; }
+body{ background-color: #455A64; }
+.row{ margin: 0; }
+
+/* BACKGROUND SETTINGS */
+.BGP{
+      background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+.ABM{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+/*Easy Color*/
+.LBlue{ color: #2980b9; }
+.LBlue1{ color: rgba(41, 128, 185, 0.0); }
+.LGrey{ color: #455A64; }
+.LGrey{ color: rgba(69, 90, 99, 0.0); }
+
+/* Image Sizes */
+.fullwidth{ width: 100%; }
+.width80{ width: 80%; }
+.width50{ width: 50%; }
+.fullheight{ height: 100%; }
+.NPcol{ padding: 0; } /* What is this? */
+
+/* Alignment */
+.TAL{ text-align: left; }
+.ITC{ font-style: italic; }
+.TAR{ text-align: right; }
+.TAS{ text-align: center; }
+.TNS{ padding-top: 60px; }
+.FLOATL{ float: left; }
+.FLOATR{ float: right; }
+
+/* Email Contact */
+.emaila, .emaila:hover{ color: white; text-decoration: underline; }
+
+/* Text */
+.TI{ text-indent: 25px; }
+.PI{ padding-left: 25px; }
+.CAP{ text-transform: uppercase; }
+
+/* New Edits */
+.SectionH1{ font-size: 8em; font-family: 'Playfair Display', serif; }
+@media screen and (max-width: 750px){ .SectionH1{ font-size:4em; } }
+
+/* Spinner */
+.sk-cube-grid{
+	width: 100px;
+	height: 100px;
+	margin: 100px auto;
+}
+.sk-cube-grid .sk-cube{
+	width: 33%;
+	height: 33%;
+	background-color: white;
+	float: left;
+	-webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+	animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1{
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+.sk-cube-grid .sk-cube2{
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  }
+}
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  }
+}
